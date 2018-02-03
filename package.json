@@ -1,0 +1,22 @@
+{
+  "name": "flow-kubernetes",
+  "version": "0.0.1",
+  "description": "Kubernetes api data type declarations for flow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "flow check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maichong/flow-kubernetes.git"
+  },
+  "author": "Liang <liang@maichong.it> (https://github.com/liangxingchen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maichong/flow-kubernetes/issues"
+  },
+  "homepage": "https://github.com/maichong/flow-kubernetes#readme",
+  "devDependencies": {
+    "flow-bin": "^0.64.0"
+  }
+}
