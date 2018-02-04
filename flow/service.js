@@ -11,6 +11,7 @@ declare interface Kube$Service {
   metadata: Kube$ObjectMeta;
   spec: Kube$ServiceSpec;
   status: Kube$ServiceStatus;
+  code?: number;
 }
 
 declare interface Kube$ServiceSpec {

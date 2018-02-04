@@ -3,6 +3,7 @@ declare interface Kube$DeploymentList {
   kind: string;
   items: Kube$Deployment[];
   metadata: Kube$ListMeta;
+  message?: string;
 }
 
 declare interface Kube$Deployment {
@@ -11,6 +12,7 @@ declare interface Kube$Deployment {
   metadata: Kube$ObjectMeta;
   spec: Kube$DeploymentSpec;
   status: Kube$DeploymentStatus;
+  message?: string;
 }
 
 declare interface Kube$DeploymentSpec {
