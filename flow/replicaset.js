@@ -1,13 +1,13 @@
 declare interface Kube$ReplicaSetList {
   apiVersion: string;
-  kind: string;
+  kind: 'ReplicaSetList';
   items: Kube$ReplicaSet[];
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$ReplicaSet {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'ReplicaSet';
   metadata: Kube$ObjectMeta;
   spec: Kube$ReplicaSetSpec;
   status: Kube$ReplicaSetStatus;

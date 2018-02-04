@@ -1,13 +1,13 @@
 declare interface Kube$EndpointsList {
   apiVersion: string;
-  kind: string;
+  kind: 'EndpointsList';
   items: Kube$Endpoints[];
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$Endpoints {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'Endpoints';
   metadata: Kube$ObjectMeta;
   subsets: Kube$EndpointSubset
 }

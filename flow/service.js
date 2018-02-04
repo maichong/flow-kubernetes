@@ -1,17 +1,16 @@
 declare interface Kube$ServiceList {
   apiVersion: string;
-  kind: string;
+  kind: 'ServiceList';
   items: Kube$Service[];
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$Service {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'Service';
   metadata: Kube$ObjectMeta;
   spec: Kube$ServiceSpec;
   status: Kube$ServiceStatus;
-  code?: number;
 }
 
 declare interface Kube$ServiceSpec {

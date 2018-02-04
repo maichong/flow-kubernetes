@@ -1,6 +1,6 @@
 {
   "name": "flow-kubernetes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kubernetes api data type declarations for flow.js",
   "main": "index.js",
   "scripts": {

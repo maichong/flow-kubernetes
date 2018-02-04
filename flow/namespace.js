@@ -1,13 +1,13 @@
 declare interface Kube$NamespaceList {
   apiVersion: string;
-  kind: string;
+  kind: 'NamespaceList';
   items: Kube$Namespace[];
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$Namespace {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'Namespace';
   metadata: Kube$ObjectMeta;
   spec: Kube$NamespaceSpec;
   status: Kube$NamespaceStatus;

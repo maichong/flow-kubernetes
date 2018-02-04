@@ -1,13 +1,13 @@
 declare interface Kube$NodeList {
   apiVersion: string;
-  kind: string;
+  kind: 'NodeList';
   items: Kube$Node[];
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$Node {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'Node';
   metadata: Kube$ObjectMeta;
   spec: Kube$NodeSpec;
   status: Kube$NodeStatus;

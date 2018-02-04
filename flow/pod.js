@@ -1,13 +1,13 @@
 declare interface Kube$PodList {
   apiVersion: string;
   items: Kube$Pod[];
-  kind: string;
+  kind: 'PodList';
   metadata: Kube$ListMeta;
 }
 
 declare interface Kube$Pod {
   apiVersion?: string;
-  kind?: string;
+  kind?: 'Pod';
   metadata: Kube$ObjectMeta;
   spec: Kube$PodSpec;
   status: Kube$PodStatus;
